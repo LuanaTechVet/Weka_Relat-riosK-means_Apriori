@@ -1,0 +1,38 @@
+=== Run information ===
+
+Scheme:       weka.associations.Apriori -N 10 -T 0 -C 0.9 -D 0.05 -U 1.0 -M 0.1 -S -1.0 -c -1
+Relation:     A4_Categ-weka.filters.unsupervised.attribute.Remove-R1-6
+Instances:    4773
+Attributes:   6
+              idade-cat
+              faixas-valor
+              faixas-atrasos
+              contatos
+              contatos-efetivos
+              Acordo-cat
+=== Associator model (full training set) ===
+
+
+Apriori
+=======
+
+Minimum support: 0.1 (477 instances)
+Minimum metric <confidence>: 0.9
+Number of cycles performed: 18
+
+Generated sets of large itemsets:
+
+Size of set of large itemsets L(1): 18
+
+Size of set of large itemsets L(2): 48
+
+Size of set of large itemsets L(3): 43
+
+Size of set of large itemsets L(4): 13
+
+Best rules found:
+
+ 1. contatos=Poucos Acordo-cat=Não 538 ==> contatos-efetivos=Um 507    <conf:(0.94)> lift:(1.1) lev:(0.01) [48] conv:(2.47)
+ 2. faixas-atrasos=0-15 dias contatos=Poucos 656 ==> contatos-efetivos=Um 596    <conf:(0.91)> lift:(1.06) lev:(0.01) [36] conv:(1.58)
+ 3. Acordo-cat=Não 867 ==> contatos-efetivos=Um 786    <conf:(0.91)> lift:(1.06) lev:(0.01) [46] conv:(1.55)
+
