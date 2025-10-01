@@ -1,4 +1,4 @@
-# Relatórios de Atividades Práticas – Data Science Algorithms
+# Relatório de Atividades Práticas – Data Science Algorithms
 
 Este repositório contém o relatório das atividades práticas avaliativas do curso de **Graduação em Ciência de Dados** da **Universidade Cruzeiro do Sul**, referentes à disciplina **Data Science Algorithms**.
 
